@@ -1,0 +1,20 @@
+service: AlexaCallMyPhone
+provider:
+  name: aws
+  runtime: python3.6
+  stage: prod
+  region: ap-northeast-1
+  environment:
+    ACCOUNT_SID: 'ACx0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0'
+    AUTH_TOKEN: 'y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0y0'
+    TO_NUMBER: '+819011111111'
+    FROM_NUMBER: '+815011111111'
+plugins:
+  - serverless-python-requirements
+functions:
+  fnc:
+    handler: main.handler
+    events:
+      - alexaSkill:
+          appId: amzn1.ask.skill.xx-xx-xx-xx
+          enabled: true
