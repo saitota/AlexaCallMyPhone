@@ -105,7 +105,7 @@ functions:
 # 🤔 Anything Else
 I wrote article about this BOT.
 
-[saitotak - Qiita](https://qiita.com/saitotak/)
+[スマホを探す Alexa スキル を作りました - Qiita](https://qiita.com/saitotak/items/4e9174d6cc560e47dd8b)
 
 # 🐑 Author
 [saitotak](https://qiita.com/saitotak)
